@@ -3,5 +3,6 @@
 
 def frequencies(items):
     frequencies = {}
+    print(hi)
     # Your code goes here
     return frequencies
