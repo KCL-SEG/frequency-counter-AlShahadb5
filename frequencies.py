@@ -3,6 +3,13 @@
 
 def frequencies(items):
     frequencies = {}
-    print(hi)
     # Your code goes here
-    return frequencies
+def frequencies(items):
+
+    frequencies={}
+    from collections import Counter
+
+    c = Counter(items) 
+
+    return (Counter(items))
+
