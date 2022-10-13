@@ -2,14 +2,20 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def frequencies(items):
-    frequencies = {}
-    # Your code goes here
-def frequencies(items):
-
     frequencies={}
-    from collections import Counter
 
-    c = Counter(items) 
+    # Your code goes here
 
-    return (Counter(items))
+    newarray=[]
+
+    counts = dict()
+
+    for i in range(len(items)):
+        items[i]= str(items[i])
+
+    for i in items:
+
+         counts[i] = counts.get(i, 0)+1
+        
+    return counts
 
